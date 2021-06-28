@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "287396645737",
+    "firebase_url": "https://burgerall-2018.firebaseio.com",
+    "project_id": "burgerall-2018",
+    "storage_bucket": "burgerall-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287396645737:android:6408e8be83753900",
+        "android_client_info": {
+          "package_name": "andrecastro.burguerall.app.burgerall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287396645737-f8t2mn2sa2hggbfgcmgugefle4os3qtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "andrecastro.burguerall.app.burgerall",
+            "certificate_hash": "c182ec8ecef698d3b4510a70a12e5b88e0ab8c56"
+          }
+        },
+        {
+          "client_id": "287396645737-163b23b6o4kg3as8ve64vhdgf5av1bvj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "287396645737-163b23b6o4kg3as8ve64vhdgf5av1bvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RZUp6I1Kq96AusJBt8Yjy12vyinut2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287396645737-163b23b6o4kg3as8ve64vhdgf5av1bvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

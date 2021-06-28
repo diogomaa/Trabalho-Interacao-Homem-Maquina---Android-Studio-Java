@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BurgerAll</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sing">Singular</string>
+    <string name="menu">Menu</string>
+    <string name="add">Adicionar ao Carrinho</string>
+    <string name="finalizar">Finalizar Compra</string>
+    <string name="back">Voltar</string>
+    <string name="pag_aceite">Pagamento Aceite</string>
+    <string name="pag_recusado">Pagamento Recusado</string>
+    <string name="pagar">Pagar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="edit">Editar</string>
+    <string name="help">Ajuda</string>
+    <string name="remover">Remover</string>
+
+    <string name="temconta">Já tens conta? Clica aqui!</string>
+    <string name="mtd">Métodos de Pagamento</string>
+</resources>

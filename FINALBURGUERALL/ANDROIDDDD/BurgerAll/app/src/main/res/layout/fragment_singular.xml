@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".singular">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <Button
+                android:id="@+id/buttonBurguers"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:fontFamily="@font/aclonica"
+                android:text="Hamburguers"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonBatatas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="@font/aclonica"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:text="Batatas" />
+
+            <Button
+                android:id="@+id/buttonBebidas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/holo_purple"
+                android:fontFamily="@font/aclonica"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:text="Bebidas" />
+
+            <Button
+                android:id="@+id/buttonSobremesas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:fontFamily="@font/aclonica"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:text="Sobremesas" />
+
+            <Button
+                android:id="@+id/buttonCafes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:fontFamily="@font/aclonica"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:text="Cafés" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

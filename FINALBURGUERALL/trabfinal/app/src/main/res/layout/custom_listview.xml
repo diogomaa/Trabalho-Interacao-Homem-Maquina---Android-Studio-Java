@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/HambImage"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/HambName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/HambImage"
+        android:layout_marginStart="140dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Nome"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/HambDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/HambName"
+        android:layout_below="@+id/HambName"
+        android:text="Descrição"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/HambSing"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/HambImage"
+        android:layout_alignStart="@+id/HambName"
+        android:background="@drawable/botao_laranja"
+        android:text="Singular                     5€"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/HambMenu"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/HambImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/botao_laranja"
+
+        android:text="Menu                              8€"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+</RelativeLayout>
